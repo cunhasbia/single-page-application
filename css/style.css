@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/*  LOGIN PAGE  */
+.login {
+    background: #763C31 url('../img/bg1.jpg') no-repeat fixed center;
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login h1 {
+    text-align: center;
+    font-variant: normal;   
+    color: white;
+    width: auto;
+    font-size: 30px;
+}
+
+.login fieldset {
+    width: 320px;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+}
+
+#email, #password, .btn-login {
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 8px;    
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+#email, #password {
+    background-color: rgba(800, 800, 800, .6);
+}
+
+#email:focus, #password:focus {
+    background-color: white;
+}
+
+.btn-login {
+    margin-top: 20px;
+    background-color: #3E3F41;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #3E3F41E5;
+}
+
+/*  CONTENT PAGE  */
+.navigation {
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    background-color: #763C31;
+    font-size: 1.1rem;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 45vh;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home, .products, .contact, .user {
+    cursor: pointer;
+}
+
+.content {
+    width: 100vw;
+    height: 86vh;
+    background: #ccc url('../img/bg2.jpg') no-repeat fixed center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-container {
+    height: 70vh;
+    width: 80vw;
+    border-radius: 20px;
+    padding: 1rem;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.user {
+    font-size: 40px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.logout {
+    width: 80px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    font-size: .9rem;
+    background-color: #763C31;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+/*  FOOTER  */
+footer {
+    height: 4vh;
+    width: 100vw;
+    bottom: 0;
+    font-size: .8rem;
+    color: #ccc;
+    background: #3C4041;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -5,7 +5,7 @@
   <img alt="SinglePageApp" title="SinglePageApp" src="./img/template2.png" width="370px">
 </p>
 
-✔️ a simple SPA that verifies a login and shows the content page through javascript and DOM manipulation.
+✔️ a simple SPA that validates a login and shows the content page through javascript and DOM manipulation.
 <hr>
 
 To log in, please use:
